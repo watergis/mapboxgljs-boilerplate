@@ -1,3 +1,6 @@
+dist/CNAME
+dist/bundle.js
+
 # Logs
 logs
 *.log
@@ -80,7 +83,7 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+#dist
 
 # Gatsby files
 .cache/
