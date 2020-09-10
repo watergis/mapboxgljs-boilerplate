@@ -15,8 +15,8 @@ import MapboxAreaSwitcherControl from '@watergis/mapbox-gl-area-switcher';
 import '@watergis/mapbox-gl-area-switcher/css/styles.css';
 import MapboxLegendControl from "@watergis/mapbox-gl-legend";
 import '@watergis/mapbox-gl-legend/css/styles.css';
-import MapboxPrintControl from "@watergis/mapbox-gl-print";
-import '@watergis/mapbox-gl-print/css/styles.css';
+import MapboxExportControl from "@watergis/mapbox-gl-export";
+import '@watergis/mapbox-gl-export/css/styles.css';
 import config from './config';
 
 $(function(){
@@ -39,7 +39,7 @@ $(function(){
     this.map.addControl(new MapboxStyleSwitcherControl(config.styles), 'top-right');
     this.map.addControl(new MapboxAreaSwitcherControl(config.areaSwitcher.areas), 'top-right');
     this.map.addControl(new RulerControl(), 'top-right');
-    this.map.addControl(new MapboxPrintControl(), 'top-right');
+    this.map.addControl(new MapboxExportControl(), 'top-right');
     this.map.addControl(new mapboxgl.ScaleControl({maxWidth: 80, unit: 'metric'}), 'bottom-left');
     this.map.addControl(new mapboxgl.AttributionControl({compact: true,customAttribution: config.attribution}), 'bottom-right');
     if (config.popup)this.map.addControl(new MapboxPopupControl(config.popup.target));
