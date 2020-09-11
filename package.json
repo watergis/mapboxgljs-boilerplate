@@ -1,6 +1,6 @@
 {
   "name": "mapboxgljs-boilerplate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is the template of Mapbox GL JS implementation for Water Services Providers.",
   "main": "build.js",
   "scripts": {
@@ -38,7 +38,7 @@
     "@turf/turf": "^5.1.6",
     "@watergis/mapbox-gl-area-switcher": "^1.0.1",
     "@watergis/mapbox-gl-export": "^1.1.0",
-    "@watergis/mapbox-gl-legend": "^1.0.3",
+    "@watergis/mapbox-gl-legend": "^1.0.4",
     "@watergis/mapbox-gl-pitch-toggle-control": "^1.0.3",
     "@watergis/mapbox-gl-popup": "^1.0.4",
     "dotenv": "^8.2.0",

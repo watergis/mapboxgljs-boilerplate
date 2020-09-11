@@ -51,7 +51,7 @@ $(function(){
                 map_.removeControl(legendCtrl);
                 legendCtrl = null;
             }
-            legendCtrl = new MapboxLegendControl(config.legend.targets);
+            legendCtrl = new MapboxLegendControl(config.legend.targets, {showDefault: false});
             map_.addControl(legendCtrl, 'bottom-left')
         });
     }
