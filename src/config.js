@@ -39,17 +39,33 @@ module.exports = {
     legend:{
         targets:{
             'pipeline': 'Pipeline',
+            'pipeline_annotation': 'Pipeline Label', 
             'meter': 'Water Meter',
             'flow meter': 'Flow Meter', 
             'valve': 'Valve', 
             'firehydrant': 'Fire Hydrant', 
             'washout': 'Washout',
             'tank': 'Tank', 
+            'tank_annotation': 'Tank Label', 
             'wtp': 'WTP', 
+            'wtp_annotation': 'WTP Label', 
             'intake': 'Intake', 
+            'intake_annotation': 'Intake Label', 
             'parcels': 'Parcels', 
+            'parcels_annotation': 'Parcels Label', 
             'village': 'Village', 
-            'dma': 'DMA'
+            'village_annotation': 'Village Label', 
+            'dma': 'DMA',
+            'dma-annotation': 'DMA Label', 
+            'contour-line': 'Countour',
+            'contour-label': 'Contour Label',
+            'hillshade': 'Hillshade'
+        },
+        options: {
+            showDefault:false,
+            showCheckbox:true,
+            reverseOrder:true,
+            onlyRendered:true
         }
     }
 }
