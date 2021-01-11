@@ -37,7 +37,7 @@
     "@mapbox/mapbox-gl-geocoder": "^4.7.0",
     "@turf/turf": "^5.1.6",
     "@watergis/mapbox-gl-area-switcher": "^1.0.1",
-    "@watergis/mapbox-gl-export": "^1.2.0",
+    "@watergis/mapbox-gl-export": "^1.2.1",
     "@watergis/mapbox-gl-legend": "^1.1.1",
     "@watergis/mapbox-gl-pitch-toggle-control": "^1.0.3",
     "@watergis/mapbox-gl-popup": "^1.0.4",
