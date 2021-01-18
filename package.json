@@ -41,11 +41,11 @@
     "@watergis/mapbox-gl-legend": "^1.1.1",
     "@watergis/mapbox-gl-pitch-toggle-control": "^1.0.3",
     "@watergis/mapbox-gl-popup": "^1.0.4",
+    "@watergis/mapbox-gl-style-switcher": "^1.0.11",
     "dotenv": "^8.2.0",
     "es6-promise": "^4.2.8",
     "jquery": "^3.5.1",
     "mapbox-gl": "^1.13.0",
-    "mapbox-gl-controls": "^1.6.5",
-    "mapbox-gl-style-switcher": "^1.0.9"
+    "mapbox-gl-controls": "^1.6.5"
   }
 }
