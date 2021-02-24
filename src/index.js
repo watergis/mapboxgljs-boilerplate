@@ -1,4 +1,3 @@
-import $ from 'jquery';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import MapboxGeocoder from '@mapbox/mapbox-gl-geocoder';
@@ -19,7 +18,7 @@ import { MapboxExportControl}  from "@watergis/mapbox-gl-export";
 import '@watergis/mapbox-gl-export/css/styles.css';
 import config from './config';
 
-$(function(){
+(()=>{
     mapboxgl.accessToken = config.accessToken;
 
     const map = new mapboxgl.Map({
@@ -84,4 +83,4 @@ $(function(){
             );
         });
     }
-})
+})();
