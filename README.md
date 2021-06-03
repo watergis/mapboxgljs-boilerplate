@@ -40,6 +40,12 @@ Please edit your own settings on `config.js` such as mapbox accessToken, stylefi
 }
 ```
 
+## demo
+
+Try [codesandbox](https://codesandbox.io/s/mapboxgljs-boilerplate-910p6)
+
+See [demo](https://watergis.github.io/mapboxgljs-boilerplate/)
+
 ## for Development
 
 ```
