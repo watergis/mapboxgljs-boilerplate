@@ -1,5 +1,5 @@
 dist/CNAME
-dist/bundle.js
+dist/*bundle.js
 
 # Logs
 logs

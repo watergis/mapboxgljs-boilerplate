@@ -6,9 +6,9 @@ module.exports = {
     attribution : '©NARWASSCO',
     // change stylefiles URLs to yours
     styles : [
+        { title: 'UN Vector Tile', uri: `https://narwassco.github.io/mapbox-stylefiles/unvt/style.json?version=${version}`,},
         { title: 'Street', uri: `https://narwassco.github.io/mapbox-stylefiles/street/style.json?version=${version}`,}, 
         { title: 'Satellite', uri: `https://narwassco.github.io/mapbox-stylefiles/satellite/style.json?version=${version}`,},
-        { title: 'UN Vector Tile', uri: `https://narwassco.github.io/mapbox-stylefiles/unvt/style.json?version=${version}`,},
     ],
     // change initial location and zoom level to yours
     center: [35.87063, -1.08551],
@@ -66,6 +66,43 @@ module.exports = {
             showCheckbox:true,
             reverseOrder:true,
             onlyRendered:true
+        }
+    },
+    elevation: {
+        url: 'https://narwassco.github.io/narok-terrain/tiles/{z}/{x}/{y}.png',
+        options: {
+            font: ['Roboto Medium'],
+            fontSize: 12,
+            fontHalo: 1,
+            mainColor: '#263238',
+            haloColor: '#fff',
+        }
+    },
+    valhalla: {
+        url: 'https://valhalla.water-gis.com',
+        options: {
+            Contours: [
+                {
+                    time: 3,
+                    distance: 1,
+                    color: 'ff0000',
+                },
+                {
+                    time: 5,
+                    distance: 2,
+                    color: 'ffff00',
+                },
+                {
+                    time: 10,
+                    distance: 3,
+                    color: '0000ff',
+                },
+                {
+                    time: 15,
+                    distance: 4,
+                    color: 'ff00ff',
+                },
+            ]
         }
     }
 }
