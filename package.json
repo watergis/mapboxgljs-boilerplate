@@ -1,6 +1,6 @@
 {
   "name": "mapboxgljs-boilerplate",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "This is the template of Mapbox GL JS implementation for Water Services Providers.",
   "main": "build.js",
   "scripts": {
