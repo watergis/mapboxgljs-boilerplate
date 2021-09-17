@@ -37,7 +37,7 @@
     "@mapbox/mapbox-gl-geocoder": "^4.7.1",
     "@watergis/mapbox-gl-area-switcher": "^1.0.1",
     "@watergis/mapbox-gl-elevation": "^1.0.5",
-    "@watergis/mapbox-gl-export": "^1.2.11",
+    "@watergis/mapbox-gl-export": "^1.2.12",
     "@watergis/mapbox-gl-legend": "^1.1.7",
     "@watergis/mapbox-gl-pitch-toggle-control": "^1.0.3",
     "@watergis/mapbox-gl-popup": "^1.0.4",
