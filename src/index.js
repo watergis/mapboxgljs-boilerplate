@@ -42,7 +42,7 @@ import config from './config';
     if (config.elevation){
         map.addControl(new MapboxElevationControl(config.elevation.url, config.elevation.options), 'top-right');
     }
-    map.addControl(new MapboxExportControl({Crosshair: true}), 'top-right');
+    map.addControl(new MapboxExportControl({Crosshair: true, PrintableArea: true}), 'top-right');
     if (config.valhalla){
         map.addControl(new MapboxValhallaControl(config.valhalla.url, config.valhalla.options),'top-right');
     }
